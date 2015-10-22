@@ -32,7 +32,7 @@ module Title
       end
 
       def defaults
-        default_keys_in_lookup_path + [application_title, guess_title]
+        default_keys_in_lookup_path + [application_title]
       end
 
       def controller_name
